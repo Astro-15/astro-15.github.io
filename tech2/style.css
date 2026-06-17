@@ -94,6 +94,12 @@ small {
   margin: 0.5em 0;
 }
 
+li {
+  font-family: 'Monsterrat', Arial, sans-serif;
+  color: #A020F0;
+  margin: 0.5em 0;
+}
+
 @keyframes fadeInDown {
   from { opacity: 0; transform: translateY(-40px);}
   to { opacity: 1; transform: translateY(0);}
