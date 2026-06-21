@@ -204,8 +204,7 @@ a:visited {
     color: #301934 !important;
 }
 
-hyperlink {
-  font-family: 'Montserrat', Arial, sans-serif;
-  color: #A020F0;
-  margin: 0.5em 0;
+a {
+    color: aqua;
 }
+
