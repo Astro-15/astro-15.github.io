@@ -195,16 +195,3 @@ p {
   text-decoration: none;   /* Removes standard underlines for a cleaner look */
   padding: 2px 0;          /* Tiny bit of internal breathing room */
 }
-
-a:link {
-    color: #A020F0 !important;
-}
-
-a:visited {
-    color: #301934 !important;
-}
-
-a {
-    color: aqua;
-}
-
