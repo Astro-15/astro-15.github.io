@@ -201,3 +201,12 @@ a:link {
 a:visited {
   color: #6A1B9A;
 }
+
+.discord-box {
+    background-color: #000000; /* Pure Black background */
+    color: #ffffff;            /* Pure White text for high contrast */
+    padding: 2px 6px;          
+    border-radius: 4px;        
+    font-family: 'Consolas', 'Courier New', monospace; 
+    font-size: 85%;            
+}
