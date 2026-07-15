@@ -173,6 +173,7 @@ p {
     justify-content: center;
     align-items: left;
     gap: 0.0em;
+  }
 }
 
 .solid-separator {
@@ -195,4 +196,13 @@ p {
   font-size: 1.25rem;      /* Matches your paragraph text size */
   text-decoration: none;   /* Removes standard underlines for a cleaner look */
   padding: 2px 0;          /* Tiny bit of internal breathing room */
+}
+
+.bottom-right-fixed {
+  position: fixed;
+  bottom: 20px;   /* Distance from the bottom of the screen */
+  right: 20px;    /* Distance from the right edge of the screen */
+  width: 150px;   /* Adjust size as needed */
+  height: auto;   /* Keeps the image aspect ratio perfect */
+  z-index: 1000;  /* Ensures the image floats on top of other content */
 }
