@@ -198,30 +198,31 @@ p {
   padding: 2px 0;          /* Tiny bit of internal breathing room */
 }
 
-/* 1. DEFAULT STYLE (Desktop) */
+/* 1. DEFAULT STYLE (Big and majestic on Desktop!) */
 .bottom-right-fixed {
   position: -webkit-fixed !important;
   position: fixed !important;
   bottom: 20px !important;
   right: 20px !important;
-  width: 180px !important;  
+  
+  /* PUMPING UP DESKTOP SIZE */
+  width: 300px !important;  
   height: auto !important;  
   
-  /* 3DS SAFEGUARD: Prevent her from being taller than the screen */
-  max-height: 80vh !important; 
+  /* NO height limits! Let her head slice off-screen on short displays */
   
   z-index: 1000 !important;
   pointer-events: none !important; 
 }
 
-/* 2. MOBILE STYLE (Phones & handheld consoles) */
+/* 2. MOBILE STYLE (Perfectly sized on phones, tall on 3DS!) */
 @media (max-width: 600px) {
   .bottom-right-fixed {
-    width: 100px !important; 
+    /* PUMPING UP MOBILE SIZE */
+    width: 180px !important; 
+    height: auto !important;
     
-    /* 3DS/RETRO SAFEGUARD: On tiny screens, force her height to stay under 150px.
-       This keeps her entire image on the 240px tall 3DS screen! */
-    max-height: 150px !important; 
+    /* NO height limits! She will naturally clip at the top of the 3DS screen */
     
     bottom: 10px !important;
     right: 10px !important;
