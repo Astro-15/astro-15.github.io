@@ -198,36 +198,33 @@ p {
   padding: 2px 0;          /* Tiny bit of internal breathing room */
 }
 
-/* 1. DEFAULT STYLE (Big and majestic on Desktop!) */
+/* 1. DEFAULT STYLE (Desktop - no changes here) */
 .bottom-right-fixed {
   position: -webkit-fixed !important;
   position: fixed !important;
   bottom: 20px !important;
   right: 20px !important;
-  
-  /* PUMPING UP DESKTOP SIZE */
-  width: 300px !important;  
+  width: 180px !important;  
   height: auto !important;  
-  
-  /* NO height limits! Let her head slice off-screen on short displays */
-  
   z-index: 1000 !important;
+  
+  /* 🪄 THE MAGIC BUTTON FIX: 
+     This makes it so if anyone clicks/taps on her, the click 
+     passes right through her and clicks the button underneath instead! */
   pointer-events: none !important; 
 }
 
-/* 2. MOBILE STYLE (Perfectly sized on phones, tall on 3DS!) */
+/* 2. MOBILE STYLE (Even smaller now!) */
 @media (max-width: 600px) {
   .bottom-right-fixed {
-    /* PUMPING UP MOBILE SIZE */
-    width: 180px !important; 
-    height: auto !important;
+    /* We shrunk her from 100px down to 75px so she stays out of the way */
+    width: 75px !important; 
     
-    /* NO height limits! She will naturally clip at the top of the 3DS screen */
-    
-    bottom: 10px !important;
-    right: 10px !important;
-    bottom: calc(10px + env(safe-area-inset-bottom)) !important;
-    right: calc(10px + env(safe-area-inset-right)) !important;
+    /* Pull her even tighter into the corner so she takes up less space */
+    bottom: 5px !important;
+    right: 5px !important;
+    bottom: calc(5px + env(safe-area-inset-bottom)) !important;
+    right: calc(5px + env(safe-area-inset-right)) !important;
   }
 }
 
