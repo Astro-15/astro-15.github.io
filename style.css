@@ -200,20 +200,26 @@ p {
 
 /* 1. DEFAULT STYLE (For Big Screens/Desktops) */
 .bottom-right-fixed {
-  position: -webkit-fixed; /* Legacy Safari & Android */
+  position: -webkit-fixed;
   position: fixed;
-  bottom: 0px;
-  right: 0px;
-  width: 200px;            /* Nice and big on desktop! */
+  bottom: 2px;
+  right: 2px;
+  width: 200px;
   height: auto;
   z-index: 1000;
 }
 
-/* 2. MOBILE STYLE (For Screens 600px wide or smaller) */
+/* 2. MOBILE STYLE (Adjusted for iPhone X & Notched Screens) */
 @media (max-width: 600px) {
   .bottom-right-fixed {
-    width: 120px;          /* Shrinks to 120px on phones */
-    bottom: 0px;          /* Tucks her slightly closer to the corner on tiny screens */
-    right: 0px;
+    width: 120px;
+    
+    /* FALLBACKS: For older phones that don't know what "env()" is */
+    bottom: 1px;
+    right: 1px;
+    
+    /* MODERN AWESOMENESS: Respects the safe area on iPhone X and newer */
+    bottom: calc(10px + env(safe-area-inset-bottom));
+    right: calc(10px + env(safe-area-inset-right));
   }
 }
