@@ -223,3 +223,15 @@ p {
     right: calc(10px + env(safe-area-inset-right)) !important;
   }
 }
+
+/* Update your existing CSS for Reze */
+.bottom-right-fixed {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 180px; /* or your mobile width */
+  z-index: 1000;
+  
+  /* 🪄 THE FIX: Make clicks pass through her entirely */
+  pointer-events: none !important;
+}
