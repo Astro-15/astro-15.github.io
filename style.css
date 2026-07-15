@@ -202,7 +202,7 @@ p {
   position: fixed;
   bottom: 20px;   /* Distance from the bottom of the screen */
   right: 20px;    /* Distance from the right edge of the screen */
-  width: 150px;   /* Adjust size as needed */
+  width: 200px;   /* Adjust size as needed */
   height: auto;   /* Keeps the image aspect ratio perfect */
   z-index: 1000;  /* Ensures the image floats on top of other content */
 }
