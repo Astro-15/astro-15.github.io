@@ -198,11 +198,22 @@ p {
   padding: 2px 0;          /* Tiny bit of internal breathing room */
 }
 
+/* 1. DEFAULT STYLE (For Big Screens/Desktops) */
 .bottom-right-fixed {
+  position: -webkit-fixed; /* Legacy Safari & Android */
   position: fixed;
-  bottom: 20px;   /* Distance from the bottom of the screen */
-  right: 20px;    /* Distance from the right edge of the screen */
-  width: 200px;   /* Adjust size as needed */
-  height: auto;   /* Keeps the image aspect ratio perfect */
-  z-index: 1000;  /* Ensures the image floats on top of other content */
+  bottom: 0px;
+  right: 0px;
+  width: 200px;            /* Nice and big on desktop! */
+  height: auto;
+  z-index: 1000;
+}
+
+/* 2. MOBILE STYLE (For Screens 600px wide or smaller) */
+@media (max-width: 600px) {
+  .bottom-right-fixed {
+    width: 120px;          /* Shrinks to 120px on phones */
+    bottom: 0px;          /* Tucks her slightly closer to the corner on tiny screens */
+    right: 0px;
+  }
 }
