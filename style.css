@@ -198,24 +198,30 @@ p {
   padding: 2px 0;          /* Tiny bit of internal breathing room */
 }
 
-/* 1. DEFAULT STYLE (Locked size for Desktop) */
+/* 1. DEFAULT STYLE (Desktop) */
 .bottom-right-fixed {
   position: -webkit-fixed !important;
   position: fixed !important;
   bottom: 20px !important;
   right: 20px !important;
-  
-  /* LOCK HER SIZE HERE: No more 'auto' width on desktop! */
   width: 180px !important;  
-  height: auto !important;  /* Keeps her proportions perfect */
+  height: auto !important;  
+  
+  /* 3DS SAFEGUARD: Prevent her from being taller than the screen */
+  max-height: 80vh !important; 
+  
   z-index: 1000 !important;
+  pointer-events: none !important; 
 }
 
-/* 2. MOBILE STYLE (Locked size for Phones) */
+/* 2. MOBILE STYLE (Phones & handheld consoles) */
 @media (max-width: 600px) {
   .bottom-right-fixed {
-    /* LOCK HER SIZE HERE FOR MOBILE */
     width: 100px !important; 
+    
+    /* 3DS/RETRO SAFEGUARD: On tiny screens, force her height to stay under 150px.
+       This keeps her entire image on the 240px tall 3DS screen! */
+    max-height: 150px !important; 
     
     bottom: 10px !important;
     right: 10px !important;
