@@ -198,28 +198,28 @@ p {
   padding: 2px 0;          /* Tiny bit of internal breathing room */
 }
 
-/* 1. DEFAULT STYLE (Desktop) */
+/* 1. DEFAULT STYLE (Locked size for Desktop) */
 .bottom-right-fixed {
   position: -webkit-fixed !important;
   position: fixed !important;
-  bottom: 2px !important;
-  right: 2px !important;
+  bottom: 20px !important;
+  right: 20px !important;
   
-  /* Tell her: "Never get bigger than your actual file size, but stay proportional!" */
-  max-width: 100% !important; 
-  width: auto !important; 
-  height: auto !important;
+  /* LOCK HER SIZE HERE: No more 'auto' width on desktop! */
+  width: 180px !important;  
+  height: auto !important;  /* Keeps her proportions perfect */
   z-index: 1000 !important;
 }
 
-/* 2. MOBILE STYLE */
+/* 2. MOBILE STYLE (Locked size for Phones) */
 @media (max-width: 600px) {
   .bottom-right-fixed {
-    /* If she is still too big on mobile, you can cap her width here */
-    max-width: 120px !important; 
-    bottom: 1px !important;
-    right: 1px !important;
-    bottom: calc(1px + env(safe-area-inset-bottom)) !important;
-    right: calc(1px + env(safe-area-inset-right)) !important;
+    /* LOCK HER SIZE HERE FOR MOBILE */
+    width: 100px !important; 
+    
+    bottom: 10px !important;
+    right: 10px !important;
+    bottom: calc(10px + env(safe-area-inset-bottom)) !important;
+    right: calc(10px + env(safe-area-inset-right)) !important;
   }
 }
