@@ -240,3 +240,18 @@ p {
   /* 🪄 THE FIX: Make clicks pass through her entirely */
   pointer-events: none !important;
 }
+
+body {
+    background-image: url('background.png'); 
+    background-size: cover; 
+    
+    /* 
+       This is the magic line! It anchors her to the left edge 
+       so she stays visible, while the empty black space scales on the right.
+    */
+    background-position: left center; 
+    
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-color: #000000; 
+}
