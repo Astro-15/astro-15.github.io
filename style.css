@@ -3,53 +3,19 @@
 body {
   min-height: 100vh;
   margin: 0;
-  background: #000000;
   font-family: 'Roboto', Arial, sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow-x: hidden;
-}
-
-.fancy-bg {
-  position: fixed;
-  top: 0; left: 0; right: 0; bottom: 0;
-  z-index: 0;
-  pointer-events: none;
-  overflow: hidden;
-}
-
-.fancy-bg span {
-  position: absolute;
-  border-radius: 50%;
-  opacity: 0.25;
-  filter: blur(40px);
-  animation: float 12s infinite alternate;
-}
-
-.fancy-bg .circle1 {
-  width: 500px; height: 400px;
-  background: #000000;
-  left: -100px; top: -100px;
-  animation-delay: 0s;
-}
-.fancy-bg .circle2 {
-  width: 300px; height: 300px;
-  background: #000000;
-  right: -80px; top: 60px;
-  animation-delay: 2s;
-}
-.fancy-bg .circle3 {
-  width: 350px; height: 350px;
-  background: #000000;
-  left: 50%; bottom: -120px;
-  transform: translateX(-50%);
-  animation-delay: 4s;
-}
-
-@keyframes float {
-  0% { transform: scale(1) translateY(0); }
-  100% { transform: scale(1.1) translateY(-30px); }
+  
+  /* Wallpaper Configuration */
+  background-image: url('background.png'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+  background-color: #000000; 
 }
 
 .container {
@@ -184,26 +150,25 @@ p {
 .solid-separator {
   border: none;
   height: 3px;
-  background-color: #A020F0; /* Change to your preferred hex color */
-  margin: 20px auto; /* Adds spacing above and below */
+  background-color: #A020F0;
+  margin: 20px auto;
   width: 100%;
  }
 
 .social-grid {
   display: flex;
-  flex-direction: column;  /* Forces them to stack vertically, one under the other */
-  align-items: center;     /* Centers the column inside your box */
-  gap: 1px;                /* Puts exactly a 1px gap under each link */
-  margin-bottom: 1.5em;    /* Spacing before your separator line */
+  flex-direction: column;
+  align-items: center;
+  gap: 1px;
+  margin-bottom: 1.5em;
 }
 
 .social-grid a {
-  font-size: 1.25rem;      /* Matches your paragraph text size */
-  text-decoration: none;   /* Removes standard underlines for a cleaner look */
-  padding: 2px 0;          /* Tiny bit of internal breathing room */
+  font-size: 1.25rem;
+  text-decoration: none;
+  padding: 2px 0;
 }
 
-/* 1. DEFAULT STYLE (Desktop - no changes here) */
 .bottom-right-fixed {
   position: -webkit-fixed !important;
   position: fixed !important;
@@ -212,50 +177,15 @@ p {
   width: 180px !important;  
   height: auto !important;  
   z-index: 1000 !important;
-  
-  /* 🪄 THE MAGIC BUTTON FIX: 
-     This makes it so if anyone clicks/taps on her, the click 
-     passes right through her and clicks the button underneath instead! */
   pointer-events: none !important; 
 }
 
-/* 2. MOBILE STYLE (Even smaller now!) */
 @media (max-width: 600px) {
   .bottom-right-fixed {
-    /* We shrunk her from 100px down to 75px so she stays out of the way */
     width: 75px !important; 
-    
-    /* Pull her even tighter into the corner so she takes up less space */
     bottom: 5px !important;
     right: 5px !important;
     bottom: calc(5px + env(safe-area-inset-bottom)) !important;
     right: calc(5px + env(safe-area-inset-right)) !important;
   }
-}
-
-/* Update your existing CSS for Reze */
-.bottom-right-fixed {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  width: 180px; /* or your mobile width */
-  z-index: 1000;
-  
-  /* 🪄 THE FIX: Make clicks pass through her entirely */
-  pointer-events: none !important;
-}
-
-body {
-    background-image: url('background.png'); 
-    background-size: cover; 
-    
-    /* 
-       This is the magic line! It anchors her to the left edge 
-       so she stays visible, while the empty black space scales on the right.
-    */
-    background-position: center; 
-    
-    background-repeat: no-repeat; 
-    background-attachment: fixed; 
-    background-color: #000000; 
 }
