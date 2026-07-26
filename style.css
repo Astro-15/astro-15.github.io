@@ -3,7 +3,7 @@
 body {
   min-height: 100vh;
   margin: 0;
-  background: #000000;
+  background-image: url('background.png');
   font-family: 'Roboto', Arial, sans-serif;
   display: flex;
   align-items: center;
