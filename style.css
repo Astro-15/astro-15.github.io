@@ -46,6 +46,13 @@ body {
   transform: translateX(-50%);
   animation-delay: 4s;
 }
+.fancy-bg .circle4 {
+  width: 250px; height: 250px;
+  background: #A020F0;
+  left: 80%; bottom: -60px;
+  transform: translateX(-50%);
+  animation-delay: 4s;
+}
 
 @keyframes float {
   0% { transform: scale(1) translateY(0); }
