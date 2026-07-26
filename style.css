@@ -259,10 +259,3 @@ body {
     background-attachment: fixed; 
     background-color: #000000; 
 }
-.link-item {
-    list-style-type: none;
-    padding: 17px 15px;
-    display: block;
-    color: #a020f0 !important;
-    text-align: center;
-}
