@@ -10,7 +10,7 @@ body {
   overflow-x: hidden;
   
   /* Wallpaper Configuration */
-  background-image: url('backgrounddd.jpg'); 
+  background-image: url('https://raw.githubusercontent.com/Astro-15/astro-15.github.io/main/assets/background/backgrounddd.png'); 
   background-size: 500 auto; 
   background-position: left bottom; 
   background-repeat: no-repeat; 
