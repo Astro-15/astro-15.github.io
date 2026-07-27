@@ -11,8 +11,8 @@ body {
   
   /* Wallpaper Configuration */
   background-image: url('https://raw.githubusercontent.com/Astro-15/astro-15.github.io/main/assets/background/backgrounddd.png'); 
-  background-size: 300px auto; 
-  background-position: left center; 
+  background-size: 500px auto; 
+  background-position: bottom-left; 
   background-repeat: no-repeat; 
   background-attachment: fixed; 
   background-color: #000000; 
