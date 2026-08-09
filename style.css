@@ -190,3 +190,7 @@ p {
     right: calc(5px + env(safe-area-inset-right)) !important;
   }
 }
+
+.accent {
+  background: #A020F0
+}
