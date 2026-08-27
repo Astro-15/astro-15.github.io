@@ -9,8 +9,6 @@ body {
   align-items: center;
   justify-content: center;
   overflow-x: hidden;
-  
-  /* Wallpaper Configuration */
   background-image: url('https://raw.githubusercontent.com/Astro-15/astro-15.github.io/main/assets/background/backgrounddd.png'); 
   background-size: 500px auto; 
   background-position: left bottom; 
