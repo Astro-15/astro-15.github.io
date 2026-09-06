@@ -4,7 +4,7 @@ body {
   min-height: 100vh;
   background: #000000;
   margin: 0;
-  font-family: 'Roboto', Arial, sans-serif;
+  font-family: "Quicksand", sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -32,7 +32,7 @@ body {
 }
 
 h1 {
-  font-family: 'Montserrat', Arial, sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-size: 2.3rem;
   color: #A020F0;
   margin-bottom: 0.3em;
@@ -42,7 +42,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Montserrat', Arial, sans-serif;
+  font-family: "Quicksand", sans-serif;
   color: #A020F0;
   margin: 0.5em 0;
   text-align: left;
@@ -50,21 +50,21 @@ h2 {
 }
 
 h3 {
-  font-family: 'Montserrat', Arial, sans-serif;
+  font-family: "Quicksand", sans-serif;
   color: #A020F0;
   margin: 0.5em 0;
   animation: fadeInDown 1s cubic-bezier(.77,0,.18,1.01);
 }
 
 small {
-  font-family: 'Montserrat', Arial, sans-serif;
+  font-family: "Quicksand", sans-serif;
   color: #A020F0;
   margin: 0.5em 0;
   animation: fadeInDown 1s cubic-bezier(.77,0,.18,1.01);
 }
 
 li {
-  font-family: 'Monsterrat', Arial, sans-serif;
+  font-family: "Quicksand", sans-serif;
   color: #A020F0;
   margin: 0.5em 0;
   text-align: left;
@@ -95,7 +95,7 @@ p {
   gap: 0.5em;
   padding: 0.85em 2.2em;
   font-size: 1.1rem;
-  font-family: 'Montserrat', Arial, sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-weight: 700;
   color: #A020F0;
   background: #000000;
