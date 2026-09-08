@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 body {
   min-height: 100vh;
   background: #000000;
@@ -77,6 +76,7 @@ li {
 }
 
 p {
+  font-family: "Quicksand", sans-serif;
   font-size: 1.25rem;
   color: #A020F0;
   margin-top: 0;
@@ -123,10 +123,6 @@ p {
   .container {
     padding: 28px 8px 24px 8px;
     max-width: 98vw;
-  }
-  
-  h1 {
-    font-size: 2rem;
   }
   
   .fancy-btn {
