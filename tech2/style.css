@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 body {
   min-height: 100vh;
   background: #000000;
   margin: 0;
-  font-family: 'Roboto', Arial, sans-serif;
+  font-family: "Quicksand", sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -32,7 +31,7 @@ body {
 }
 
 h1 {
-  font-family: 'Montserrat', Arial, sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-size: 2.3rem;
   color: #A020F0;
   margin-bottom: 0.3em;
@@ -42,7 +41,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Montserrat', Arial, sans-serif;
+  font-family: "Quicksand", sans-serif;
   color: #A020F0;
   margin: 0.5em 0;
   text-align: left;
@@ -50,7 +49,7 @@ h2 {
 }
 
 h3 {
-  font-family: 'Montserrat', Arial, sans-serif;
+  font-family: "Quicksand", sans-serif;
   color: #A020F0;
   margin: 0.5em 0;
   text-align: left;
@@ -58,7 +57,7 @@ h3 {
 }
 
 h4 {
-  font-family: 'Montserrat', Arial, sans-serif;
+  font-family: "Quicksand", sans-serif;
   color: #A020F0;
   margin: 0.5em 0;
   text-align: left;
@@ -66,14 +65,14 @@ h4 {
 }
 
 small {
-  font-family: 'Montserrat', Arial, sans-serif;
+  font-family: "Quicksand", sans-serif;
   color: #A020F0;
   margin: 0.5em 0;
   animation: fadeInDown 1s cubic-bezier(.77,0,.18,1.01);
 }
 
 li {
-  font-family: 'Monsterrat', Arial, sans-serif;
+  font-family: "Quicksand", sans-serif;
   color: #A020F0;
   margin: 0.4em 0;
   text-align: left;
@@ -86,6 +85,7 @@ li {
 }
 
 p {
+  font-family: "Quicksand", sans-serif;
   font-size: 1.25rem;
   color: #A020F0;
   margin-top: 0;
@@ -104,7 +104,7 @@ p {
   gap: 0.5em;
   padding: 0.85em 2.2em;
   font-size: 1.1rem;
-  font-family: 'Montserrat', Arial, sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-weight: 700;
   color: #A020F0;
   background: #000000;
@@ -132,10 +132,6 @@ p {
   .container {
     padding: 28px 8px 24px 8px;
     max-width: 98vw;
-  }
-  
-  h1 {
-    font-size: 2rem;
   }
   
   .fancy-btn {
