@@ -30,6 +30,15 @@ body {
   border: 2px solid #A020F0;
 }
 
+p {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.25rem;
+  color: #A020F0;
+  margin-top: 0;
+  margin-bottom: 1.5em;
+  animation: fadeInDown 1s cubic-bezier(.77,0,.18,1.01);
+}
+
 h1 {
   font-family: "Quicksand", sans-serif;
   font-size: 2.3rem;
@@ -73,15 +82,6 @@ li {
 @keyframes fadeInDown {
   from { opacity: 0; transform: translateY(-40px);}
   to { opacity: 1; transform: translateY(0);}
-}
-
-p {
-  font-family: "Quicksand", sans-serif;
-  font-size: 1.25rem;
-  color: #A020F0;
-  margin-top: 0;
-  margin-bottom: 1.5em;
-  animation: fadeInDown 1s cubic-bezier(.77,0,.18,1.01);
 }
 
 @keyframes fadeInUp {
@@ -130,39 +130,6 @@ p {
     font-size: 0.9rem;
     margin: 0.3em;
   }
-  
-  .social-links {
-    position: static;
-    transform: none;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: left;
-    gap: 0.0em;
-  }
-}
-
-.solid-separator {
-  border: none;
-  height: 3px;
-  background-color: #A020F0;
-  margin: 20px auto;
-  width: 100%;
- }
-
-.social-grid {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1px;
-  margin-bottom: 1.5em;
-}
-
-.social-grid a {
-  font-size: 1.25rem;
-  text-decoration: none;
-  padding: 2px 0;
-}
 
 .bottom-right-fixed {
   position: -webkit-fixed !important;
