@@ -1,0 +1,217 @@
+{
+    "name": "Astro15's Theme :3",
+    "description": "Hehe, a custom Theme made by Astro15 :3",
+    "version": "1",
+    "authors": [
+        {
+            "name": "Astro15",
+            "id": "0"
+        }
+    ],
+    "semanticColors": {
+        "HEADER_PRIMARY": [
+            "#A020F0"
+        ],
+        "HEADER_SECONDARY": [
+            "#A020F0"
+        ],
+        "TEXT_NORMAL": [
+            "#A020F0"
+        ],
+        "TEXT_SECONDARY": [
+            "#A020F0"
+        ],
+        "TEXT_PRIMARY": [
+            "#A020F0"
+        ],
+        "TEXT_MUTED": [
+            "#A020F0"
+        ],
+        "INTERACTIVE_NORMAL": [
+            "#A020F0"
+        ],
+        "INTERACTIVE_HOVER": [
+            "#A020F0"
+        ],
+        "INTERACTIVE_ACTIVE": [
+            "#A020F0"
+        ],
+        "INTERACTIVE_MUTED": [
+            "#A020F0"
+        ],
+        "BACKGROUND_PRIMARY": [
+            "#000000"
+        ],
+        "BACKGROUND_SECONDARY": [
+            "#000000"
+        ],
+        "BACKGROUND_SECONDARY_ALT": [
+            "#000000"
+        ],
+        "REDESIGN_BUTTON_SECONDARY_BORDER": [
+            "#A020F0"
+        ],
+        "BACKGROUND_TERTIARY": [
+            "#000000"
+        ],
+        "BACKGROUND_ACCENT": [
+            "#000000"
+        ],
+        "BACKGROUND_FLOATING": [
+            "#000000"
+        ],
+        "BACKGROUND_MOBILE_PRIMARY": [
+            "#000000"
+        ],
+        "BACKGROUND_MOBILE_SECONDARY": [
+            "#A020F0"
+        ],
+        "BACKGROUND_NESTED_FLOATING": [
+            "#000000"
+        ],
+        "BACKGROUND_MESSAGE_HOVER": [
+            "#A020F0"
+        ],
+        "BACKGROUND_MODIFIER_HOVER": [
+            "#000000"
+        ],
+        "BACKGROUND_MODIFIER_ACTIVE": [
+            "#000000"
+        ],
+        "BACKGROUND_MODIFIER_SELECTED": [
+            "#000000"
+        ],
+        "BACKGROUND_MODIFIER_ACCENT": [
+            "#000000"
+        ],
+        "EMBED_BACKGROUND": [
+            "#000000"
+        ],
+        "BACKGROUND_MENTIONED": [
+            "#A020F0"
+        ],
+        "BG_SURFACE_OVERLAY_TMP": [
+            "#000000"
+        ],
+        "BUTTON_OUTLINE_BRAND_BACKGROUND": [
+            "#A020F0"
+        ],
+        "BUTTON_OUTLINE_BRAND_BOARDER": [
+            "#A020F0"
+        ],
+        "REDESIGN_BUTTON_SECONDARY_ALT_BACKGROUND": [
+            "#000000"
+        ],
+        "REDESIGN_INPUT_CONTROL_SELECTED": [
+            "#A020F0"
+        ],
+        "REDESIGN_BUTTON_SECONDARY_BACKGROUND": [
+            "#000000"
+        ],
+        "REDESIGN_BUTTON_PRIMARY_BACKGROUND": [
+            "#000000"
+        ],
+        "ANDROID_RIPPLE": [
+            "#A020F0"
+        ],
+        "BG_BASE_PRIMARY": [
+            "#000000"
+        ],
+        "SCROLLBAR_THIN_THUMB": [
+            "#A020F0"
+        ],
+        "SCROLLBAR_THIN_TRACK": [
+            "#000000"
+        ],
+        "SCROLLBAR_AUTO_THUMB": [
+            "#A020F0"
+        ],
+        "SCROLLBAR_AUTO_TRACK": [
+            "#A020F0"
+        ],
+        "CHANNELTEXTAREA_BACKGROUND": [
+            "#A020F0"
+        ],
+        "CHANNELS_DEFAULT": [
+            "#A020F0"
+        ],
+        "TEXT_LINK": [
+            "#A020F0"
+        ],
+        "TEXT_DANGER": [
+            "#A020F0"
+        ],
+        "KEYBOARD": [
+            "#A020F0"
+        ],
+        "CHANNEL_ICON": [
+            "#A020F0"
+        ],
+        "CHAT_BACKGROUND": [
+            "#000000"
+        ],
+        "CARD_PRIMARY_BG": [
+            "#000000"
+        ],
+        "REDESIGN_CHANNEL_CATEGORY_NAME_TEXT": [
+            "#A020F0"
+        ],
+        "USER_PROFILE_HEADER_OVERFLOW_BACKGROUND": [
+            "#000000",
+            "#000000",
+            "#000000"
+        ]
+    },
+    "rawColors": {
+        "PRIMARY_100": "#A020F0",
+        "PRIMARY_200": "#A020F0",
+        "PRIMARY_230": "#A020F0",
+        "PRIMARY_300": "#A020F0",
+        "PRIMARY_360": "#A020F0",
+        "PRIMARY_400": "#A020F0",
+        "PRIMARY_500": "#A020F0",
+        "PRIMARY_560": "#000000",
+        "PRIMARY_600": "#000000",
+        "PRIMARY_630": "#000000",
+        "PRIMARY_645": "#000000",
+        "PRIMARY_660": "#000000",
+        "PRIMARY_700": "#000000",
+        "PRIMARY_800": "#000000",
+        "BRAND_260": "#A020F0",
+        "BRAND_360": "#A020F0",
+        "BRAND_500": "#A020F0",
+        "BRAND_560": "#000000",
+        "YELLOW_300": "#A020F0",
+        "GREEN_600": "#A020F0",
+        "RED_400": "#A020F0",
+        "WHITE_500": "#A020F0",
+        "WHITE_630": "#A020F0",
+        "GREEN_360": "#A020F0",
+        "PLUM_1": "#A020F0",
+        "PLUM_3": "#A020F0",
+        "PLUM_6": "#A020F0",
+        "PLUM_10": "#A020F0",
+        "PLUM_11": "#000000",
+        "PLUM_15": "#A020F0",
+        "PLUM_16": "#A020F0",
+        "PLUM_17": "#000000",
+        "PLUM_18": "#000000",
+        "PLUM_19": "#000000",
+        "PLUM_20": "#000000",
+        "PLUM_26": "#000000",
+        "PLUM_22": "#000000",
+        "PLUM_24": "#000000"
+},
+    "plus": {
+        "version": 0,
+        "mentionLineColor": "#A020F0",
+        "iconpack": "materialtwotone"
+    },
+    "background": {
+        "blur": 0,
+        "url":
+"https://raw.githubusercontent.com/Astro-15/astro-15.github.io/main/dctheme/Background/animegirl.jpeg",
+        "alpha": 0.6
+    },
+    "spec": 2
+}
