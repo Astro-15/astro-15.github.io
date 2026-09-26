@@ -39,6 +39,16 @@ p {
   animation: fadeInDown 1s cubic-bezier(.77,0,.18,1.01);
 }
 
+a {
+  font-family: "Quicksand", sans-serif;
+  color: #A020F0;
+}
+
+a:hover {
+  font-family: "Quicksand", sans-serif;
+  color: #6C15A2;
+}
+
 h1 {
   font-family: "Quicksand", sans-serif;
   font-size: 2.3rem;
