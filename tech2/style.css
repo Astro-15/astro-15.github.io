@@ -30,6 +30,25 @@ body {
   border: 2px solid #A020F0;
 }
 
+p {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.25rem;
+  color: #A020F0;
+  margin-top: 0;
+  margin-bottom: 1.5em;
+  animation: fadeInDown 1s cubic-bezier(.77,0,.18,1.01);
+}
+
+a {
+  font-family: "Quicksand", sans-serif;
+  color: #A020F0;
+}
+
+a:hover {
+  font-family: "Quicksand", sans-serif;
+  color: #6C15A2;
+}
+
 h1 {
   font-family: "Quicksand", sans-serif;
   font-size: 2.3rem;
@@ -82,15 +101,6 @@ li {
 @keyframes fadeInDown {
   from { opacity: 0; transform: translateY(-40px);}
   to { opacity: 1; transform: translateY(0);}
-}
-
-p {
-  font-family: "Quicksand", sans-serif;
-  font-size: 1.25rem;
-  color: #A020F0;
-  margin-top: 0;
-  margin-bottom: 1.5em;
-  animation: fadeInDown 1s cubic-bezier(.77,0,.18,1.01);
 }
 
 @keyframes fadeInUp {
