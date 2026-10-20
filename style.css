@@ -82,8 +82,9 @@ h4 {
 
 small {
   font-family: "Quicksand", sans-serif;
+  font-size: 1.0rem;
   color: #A020F0;
-  margin: 0.1em 0;
+  margin: 0.2em 0;
   animation: fadeInDown 1s cubic-bezier(.77,0,.18,1.01);
 }
 
