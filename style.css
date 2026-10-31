@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 body {
+  cursor: url('assets/cursor/color-orchid-pack.png') 0 0, auto; 
   min-height: 100vh;
   background: #000000;
   margin: 0;
@@ -132,4 +133,8 @@ li {
     bottom: calc(5px + env(safe-area-inset-bottom)) !important;
     right: calc(5px + env(safe-area-inset-right)) !important;
   }
+}
+
+a, button, input, label, [role="button"], .clickable {
+  cursor: url('assets/cursor/color-orchid-pack.png') 10 0, pointer; 
 }
