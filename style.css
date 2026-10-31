@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 body {
-  cursor: url('assets/cursor/color-orchid-pack.png') 0 0, auto; 
+  cursor: url('https://raw.githubusercontent.com/Astro-15/astro-15.github.io/main/assets/cursor/color-orchid-pack.png') 0 0, auto; 
   min-height: 100vh;
   background: #000000;
   margin: 0;
@@ -136,5 +136,5 @@ li {
 }
 
 a, button, input, label, [role="button"], .clickable {
-  cursor: url('assets/cursor/color-orchid-pack.png') 10 0, pointer; 
+  cursor: url('https://raw.githubusercontent.com/Astro-15/astro-15.github.io/main/assets/cursor/color-orchid-pack.png') 10 0, pointer; 
 }
