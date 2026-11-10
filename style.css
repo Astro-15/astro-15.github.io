@@ -144,4 +144,5 @@ a, button, input, label, [role="button"], .clickable {
   border: 0;
   border-top: 1px solid #a020f0;
   margin: 2rem 0;
+  animation: fadeInDown 1s cubic-bezier(.77,0,.18,1.01);
 }
