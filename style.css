@@ -149,6 +149,7 @@ a, button, input, label, [role="button"], .clickable {
 
 code {
   background-color: #333333;
+  animation: fadeInDown 1s cubic-bezier(.77,0,.18,1.01);
 }
 
 .ab {
@@ -156,4 +157,5 @@ code {
   color: #000000;
   border-color: #000000;
   height: 25px;
+  animation: fadeInDown 1s cubic-bezier(.77,0,.18,1.01);
 }
