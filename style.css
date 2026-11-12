@@ -146,3 +146,7 @@ a, button, input, label, [role="button"], .clickable {
   margin: 2rem 0;
   animation: fadeInDown 1s cubic-bezier(.77,0,.18,1.01);
 }
+
+code {
+  background-color: #333333;
+}
