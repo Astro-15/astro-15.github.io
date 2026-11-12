@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 body {
-  cursor: url('assets/cursor/astro.cur') 0 0, auto; 
+  cursor: url('https://raw.githubusercontent.com/Astro-15/astro-15.github.io/main/assets/cursor/astro.cur') 0 0, auto; 
   min-height: 100vh;
   background: #000000;
   margin: 0;
@@ -136,7 +136,7 @@ li {
 }
 
 a, button, input, label, [role="button"], .clickable {
-  cursor: url('assets/cursor/astro.cur') 0 0, pointer; 
+  cursor: url('https://raw.githubusercontent.com/Astro-15/astro-15.github.io/main/assets/cursor/astro.cur') 0 0, pointer; 
 }
 
 .divider {
@@ -149,4 +149,11 @@ a, button, input, label, [role="button"], .clickable {
 
 code {
   background-color: #333333;
+}
+
+.ab {
+  background-color: #a020f0;
+  color: #000000;
+  border-color: #000000;
+  height: 25px;
 }
