@@ -105,6 +105,12 @@ code {
   animation: fadeInDown 1s cubic-bezier(.77,0,.18,1.01);
 }
 
+button {
+  background-color: #a020f0;
+  color: #000000;
+  height: 25px;
+}
+
 @keyframes fadeInDown {
   from { opacity: 0; transform: translateY(-40px);}
   to { opacity: 1; transform: translateY(0);}
